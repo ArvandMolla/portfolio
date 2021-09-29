@@ -1,9 +1,11 @@
-import React from "react";
+import AboutMe from "../components/AboutMe.jsx";
+import Projects from "../components/Projects.jsx";
 
 function Home() {
   return (
-    <div>
-      <h1>this is home</h1>
+    <div className="home-container">
+      <AboutMe />
+      <Projects />
     </div>
   );
 }

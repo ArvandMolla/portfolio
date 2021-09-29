@@ -1,3 +1,6 @@
+import "./App.css";
+import "antd/dist/antd.css";
+
 import {
   BrowserRouter as Router,
   Route,
