@@ -63,3 +63,24 @@
 .projects-divider span {
   font-size: 3em;
 }
+
+.project-card-container {
+  max-width: 350px;
+  text-align: left;
+  background-color: white;
+}
+
+.project-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-parent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-footer-item {
+  text-align: left;
+}
