@@ -3,7 +3,7 @@ function Projects() {
   return (
     <div className="projects-container">
       <Row justify="center">
-        <Col xs={24} md={20}>
+        <Col xs={24}>
           <Divider orientation="center" className="projects-divider">
             PROJECTS
           </Divider>
