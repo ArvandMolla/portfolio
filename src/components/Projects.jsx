@@ -11,22 +11,17 @@ function Projects() {
           </Divider>
         </Col>
       </Row>
-      {/* <Row justify="center">
-        <Col xs={24} md={8}>
+      <Row justify="center" gutter="24">
+        <Col xs={24} sm={12} lg={6}>
           <ProjectCard />
         </Col>
-        <Col xs={24} md={8}>
+        <Col xs={24} sm={12} lg={6}>
           <ProjectCard />
         </Col>
-        <Col xs={24} md={8}>
+        <Col xs={24} sm={12} lg={6}>
           <ProjectCard />
         </Col>
-      </Row> */}
-      <div className="projects-parent">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-      </div>
+      </Row>
     </div>
   );
 }

@@ -20,30 +20,30 @@ function ProjectCard() {
       </div>
       <div className="project-footer">
         <div className="project-footer-item">
-          <span>
+          <span className="footer-icon">
             <LinkOutlined />
           </span>
 
           <a href="https://30-seconds.vercel.app/">
-            <span>Live Version</span>
+            <span>Live</span>
           </a>
         </div>
         <div className="project-footer-item">
-          <span>
+          <span className="footer-icon">
             <VideoCameraOutlined />
           </span>
 
           <a href="https://30-seconds.vercel.app/">
-            <span>Demo Video</span>
+            <span>Demo</span>
           </a>
         </div>
         <div className="project-footer-item">
-          <span>
+          <span className="footer-icon">
             <GithubOutlined />
           </span>
 
           <a href="https://30-seconds.vercel.app/">
-            <span>Github Repo</span>
+            <span>Github</span>
           </a>
         </div>
       </div>

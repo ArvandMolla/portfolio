@@ -65,9 +65,12 @@
 }
 
 .project-card-container {
-  max-width: 350px;
   text-align: left;
   background-color: white;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 6px -3px rgb(0 0 0 / 30%);
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .project-footer {
@@ -75,12 +78,42 @@
   justify-content: space-around;
 }
 
-.projects-parent {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.project-description {
+  padding: 14px;
+  font-size: 1.03rem;
+}
+.project-footer {
+  border-top: 1px solid rgb(224, 224, 224);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 1.03rem;
 }
 
 .project-footer-item {
   text-align: left;
+}
+.project-footer-item:hover > .footer-icon {
+  color: black;
+}
+
+.project-footer-item:hover .project-footer a {
+  color: black;
+  font-weight: bold;
+}
+
+.footer-icon {
+  margin-right: 5px;
+  color: rgb(170, 170, 170);
+}
+.footer-icon:hover {
+  color: rgb(0, 0, 0);
+}
+
+.project-footer a {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+}
+
+.project-footer a:hover {
+  color: rgb(0, 0, 0);
 }
