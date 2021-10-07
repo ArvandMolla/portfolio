@@ -3,20 +3,25 @@ import {
   VideoCameraOutlined,
   GithubOutlined,
 } from "@ant-design/icons";
-
-function ProjectCard() {
+import React, { useState } from "react";
+import { Popover } from "antd";
+function ProjectCard({
+  banner,
+  title,
+  description,
+  demo,
+  live,
+  BELink,
+  FELink,
+}) {
   return (
     <div className="project-card-container">
       <div className="project-banner">
-        <img src="../../img/30-sec.jpg" alt="30-sec project" width="100%" />
+        <img src={banner} alt={title} width="100%" />
       </div>
       <div className="project-description">
-        <h2>30-SECONDS</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A labore
-          fuga, nulla quasi accusantium ipsam enim, quo minus dolore, recusandae
-          voluptatem
-        </p>
+        <h2>{title}</h2>
+        <p>{description}</p>
       </div>
       <div className="project-footer">
         <div className="project-footer-item">
@@ -24,7 +29,7 @@ function ProjectCard() {
             <LinkOutlined />
           </span>
 
-          <a href="https://30-seconds.vercel.app/">
+          <a href={live} target="_blank">
             <span>Live</span>
           </a>
         </div>
@@ -33,7 +38,7 @@ function ProjectCard() {
             <VideoCameraOutlined />
           </span>
 
-          <a href="https://30-seconds.vercel.app/">
+          <a href={demo} target="_blank">
             <span>Demo</span>
           </a>
         </div>
@@ -42,9 +47,28 @@ function ProjectCard() {
             <GithubOutlined />
           </span>
 
-          <a href="https://30-seconds.vercel.app/">
-            <span>Github</span>
-          </a>
+          <Popover
+            placement="topRight"
+            content={
+              <div>
+                <div className="popover-link-container">
+                  <a href={BELink} target="_blank" className="popover-link">
+                    Back-end Repo
+                  </a>
+                </div>
+                <div className="popover-link-container">
+                  <a href={FELink} target="_blank" className="popover-link">
+                    Front-end Repo
+                  </a>
+                </div>
+              </div>
+            }
+            trigger="click"
+          >
+            <a>
+              <span>Github</span>
+            </a>
+          </Popover>
         </div>
       </div>
     </div>
