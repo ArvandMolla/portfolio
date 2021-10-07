@@ -12,7 +12,7 @@ function Skills() {
       </Row>
       <Row justify="center">
         <Col xs={24} md={20}>
-          <Row gutter={[24, 24]} justify="start">
+          <Row gutter={[24, 24]}>
             <Col xs={12} lg={6} className="skill-container">
               <img
                 src="../../img/node-logo.png"
@@ -116,6 +116,15 @@ function Skills() {
             </Col>
             <Col xs={12} lg={6} lg={6} className="skill-container">
               <img
+                src="../../img/ci-cd-logo.png"
+                alt="CI-CD"
+                width="50"
+                height="50"
+              />
+              <h3>CI-CD</h3>
+            </Col>
+            <Col xs={12} lg={6} lg={6} className="skill-container">
+              <img
                 src="../../img/bootstrap-logo.png"
                 alt="Bootstrap"
                 width="50"
@@ -132,15 +141,7 @@ function Skills() {
               />
               <h3>Ant Design</h3>
             </Col>
-            <Col xs={12} lg={6} lg={6} className="skill-container">
-              <img
-                src="../../img/ci-cd-logo.png"
-                alt="CI-CD"
-                width="50"
-                height="50"
-              />
-              <h3>CI-CD</h3>
-            </Col>
+
             <Col xs={12} lg={6} lg={6} className="skill-container">
               <img
                 src="../../img/html-logo.png"
@@ -176,6 +177,15 @@ function Skills() {
                 height="50"
               />
               <h3>Data Structures</h3>
+            </Col>
+            <Col xs={12} lg={6} lg={6} className="skill-container">
+              <img
+                src="../../img/gcp.png"
+                alt="google cloud platform"
+                width="50"
+                height="50"
+              />
+              <h3>Google Cloud</h3>
             </Col>
             <Col xs={12} lg={6} lg={6} className="skill-container">
               <img

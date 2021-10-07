@@ -42,7 +42,7 @@
 .home-container {
   padding-right: 5%;
   padding-left: 5%;
-  padding-top: 160px;
+  padding-top: 60px;
   text-align: center;
 }
 .about-me-container {
@@ -61,7 +61,7 @@
   margin-top: 150px;
 }
 .projects-divider span {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .project-card-container {
