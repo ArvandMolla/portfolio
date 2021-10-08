@@ -2,7 +2,7 @@ import { Divider, Row, Col } from "antd";
 
 function Skills() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="skills">
       <Row justify="center" className="projects-header">
         <Col xs={24} md={20}>
           <Divider orientation="center" className="projects-divider">

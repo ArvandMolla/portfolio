@@ -20,6 +20,13 @@
   justify-content: start;
   align-items: center;
 }
+.logo p {
+  /* font-family: "Dancing Script", cursive; */
+  font-family: "Satisfy", cursive;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: rgb(241, 241, 241);
+}
 
 .nav-container p {
   margin-bottom: 0;
@@ -168,4 +175,41 @@
   background-color: rgb(36, 88, 138);
   height: 40px;
   margin-top: 100px;
+}
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.menu-items {
+  background-color: rgb(36, 88, 138);
+  width: 200px;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.menu-items ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.menu-items ul a {
+  color: white !important;
+}
+.menu-items ul li {
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 600px) {
+  .menu-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
 }

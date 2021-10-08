@@ -2,7 +2,7 @@ import { Row, Col } from "antd";
 
 function AboutMe2() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="aboutMe">
       <Row justify="center" className="projects-header">
         <Col xs={24} md={20}>
           <video
