@@ -8,6 +8,7 @@ import {
   withRouter,
 } from "react-router-dom";
 import TopNav from "./components/TopNav.jsx";
+import Footer from "./components/Footer.jsx";
 import Home from "./views/Home.jsx";
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           exact
         />
       </Route>
+      <Footer />
     </Router>
   );
 }
