@@ -33,15 +33,17 @@ function ProjectCard({
             <span>Live</span>
           </a>
         </div>
-        <div className="project-footer-item">
-          <span className="footer-icon">
-            <VideoCameraOutlined />
-          </span>
+        {demo.length > 0 && (
+          <div className="project-footer-item">
+            <span className="footer-icon">
+              <VideoCameraOutlined />
+            </span>
 
-          <a href={demo} target="_blank">
-            <span>Demo</span>
-          </a>
-        </div>
+            <a href={demo} target="_blank">
+              <span>Demo</span>
+            </a>
+          </div>
+        )}
         <div className="project-footer-item">
           <span className="footer-icon">
             <GithubOutlined />

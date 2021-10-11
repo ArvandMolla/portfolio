@@ -5,13 +5,17 @@ function AboutMe2() {
     <div className="projects-container" id="aboutMe">
       <Row justify="center" className="projects-header">
         <Col xs={24} md={20}>
-          <video
-            className="video-thumb"
-            width="100%"
-            src="https://storage.googleapis.com/strive-proj/vid-gqcqa50wktuegum5.mp4"
-            type="video/mp4"
-            controls
-          ></video>
+          <div className="youtube-video-container">
+            <iframe
+              className="youtube-video"
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/0vsAAJlA1I8"
+              title="YouTube video player"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
         </Col>
       </Row>
     </div>
