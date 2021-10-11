@@ -40,7 +40,7 @@ function Projects() {
               <ProjectCard
                 banner="../../img/my-linkedin.jpg"
                 title="My Linkedin"
-                description="A video platform for e-commerce. Upload your video and the app makes your video searchable and filterable automatically! The app uses Google Cloud Platform (GCP) to analyze videos."
+                description="A Limited featured clone of Linkedin. You can add a post, change your profile pic, add or remove an 'experience', download a PDF of your CV including a list of your experiences, and more... "
                 live="https://linkedin-eight.vercel.app"
                 demo=""
                 BELink="https://github.com/ArvandMolla/linkedin-be"
