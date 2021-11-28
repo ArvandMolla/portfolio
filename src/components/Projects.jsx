@@ -41,7 +41,7 @@ function Projects() {
                 banner="../../img/my-linkedin.jpg"
                 title="My Linkedin"
                 description="A Limited featured clone of Linkedin. You can add a post, change your profile pic, add or remove an 'experience', download a PDF of your CV including a list of your experiences, and more... "
-                live="https://linkedin-eight.vercel.app"
+                live="https://linkedin-eight.vercel.app/userprofile/60c9fddd35e957371cfa7adc"
                 demo=""
                 BELink="https://github.com/ArvandMolla/linkedin-be"
                 FELink="https://github.com/ArvandMolla/linkedin-fe"
