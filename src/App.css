@@ -220,5 +220,20 @@
 }
 .youtube-video {
   position: absolute;
-  right: 0;
+  right: 0px;
+}
+.youtube-video-container-small {
+  padding-bottom: 56.2%;
+  padding-right: 40px;
+}
+.youtube-video-small {
+  position: absolute;
+  right: 0px;
+}
+.small-videos {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.small-video {
+  margin-bottom: 30px;
 }

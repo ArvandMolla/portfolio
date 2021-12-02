@@ -13,6 +13,34 @@ function Projects() {
       </Row>
       <Row justify="center">
         <Col xs={24} md={20}>
+          <Row className="small-videos" justify="space-between">
+            <Col xs={24} lg={11} className="small-video">
+              <div className="youtube-video-container-small">
+                <iframe
+                  className="youtube-video-small"
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/rmEI70biYwc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </Col>
+            <Col xs={24} lg={11} className="small-video">
+              <div className="youtube-video-container-small">
+                <iframe
+                  className="youtube-video-small"
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/-YxLVwZkBrQ"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </Col>
+          </Row>
           <Row gutter="24">
             <Col xs={24} sm={12} lg={8}>
               <ProjectCard
@@ -20,7 +48,7 @@ function Projects() {
                 title="30 SECONDS"
                 description="A video platform for e-commerce. Upload your video and the app makes your video searchable and filterable automatically! The app uses Google Cloud Platform (GCP) to analyze videos."
                 live="https://30-seconds.vercel.app/"
-                demo="https://www.youtube.com/watch?v=T8RUoKBPZRM&list=PLIz8i-HCdhvkeJKmje4IEon5yvFTD6XCk&index=10"
+                demo=""
                 BELink="https://github.com/ArvandMolla/capstone-backend"
                 FELink="https://github.com/ArvandMolla/capstone-frontend"
               />
