@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard.jsx";
 import { Divider, Row, Col } from "antd";
+import { YoutubeOutlined } from "@ant-design/icons";
 
 function Projects() {
   return (
@@ -19,26 +20,50 @@ function Projects() {
                 <iframe
                   className="youtube-video-small"
                   width="100%"
-                  height="100%"
+                  height="87%"
                   src="https://www.youtube.com/embed/rmEI70biYwc"
                   title="YouTube video player"
                   frameborder="0"
                   allowfullscreen
                 ></iframe>
               </div>
+              <a
+                href="https://www.youtube.com/watch?v=rmEI70biYwc"
+                target="_blank"
+              >
+                <h2>
+                  <YoutubeOutlined
+                    style={{ fontSize: "22px", color: "#ff0000" }}
+                    className="youtube-icon"
+                  />
+                  Watch on YouTube
+                </h2>
+              </a>
             </Col>
             <Col xs={24} lg={11} className="small-video">
               <div className="youtube-video-container-small">
                 <iframe
                   className="youtube-video-small"
                   width="100%"
-                  height="100%"
+                  height="87%"
                   src="https://www.youtube.com/embed/-YxLVwZkBrQ"
                   title="YouTube video player"
                   frameborder="0"
                   allowfullscreen
                 ></iframe>
               </div>
+              <a
+                href="https://www.youtube.com/watch?v=-YxLVwZkBrQ"
+                target="_blank"
+              >
+                <h2>
+                  <YoutubeOutlined
+                    style={{ fontSize: "22px", color: "#ff0000" }}
+                    className="youtube-icon"
+                  />
+                  Watch on YouTube
+                </h2>
+              </a>
             </Col>
           </Row>
           <Row gutter="24">
